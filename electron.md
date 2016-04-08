@@ -1,8 +1,9 @@
 ##桌面框架 Electron
-[electron](https://github.com/atom/electron) 使用 web 页面作为它的 GUI  
+[electron](https://github.com/atom/electron) 使用 web 页面作为它的 GUI   
 [awesome](https://github.com/sindresorhus/awesome-electron) 资源清单  
 [packager](https://github.com/electron-userland/electron-packager) 打包工具    
-[quick-start](https://github.com/atom/electron-quick-start) 快速启步
+[quick-start](https://github.com/atom/electron-quick-start) 快速启步   
+[开发文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
 
 
 ```
