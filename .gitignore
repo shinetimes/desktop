@@ -3,3 +3,7 @@
 *.bak
 *.old
 *.tmp
+
+node_modules
+
+dist
