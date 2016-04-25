@@ -1,0 +1,28 @@
+{
+  "name": "desktop-fairy",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinetimes/desktop-fairy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinetimes/desktop-fairy/issues"
+  },
+  "keywords": [
+    "Electron",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/shinetimes/desktop-fairy#readme",
+  
+  "devDependencies": {
+    "electron-prebuilt": "^0.+"
+  }
+}
