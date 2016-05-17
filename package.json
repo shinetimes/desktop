@@ -21,12 +21,22 @@
     "tutorial"
   ],
   "homepage": "https://github.com/shinetimes/desktop-fairy#readme",
-  
   "dependencies": {
-    "network-address": "^1.1.0"
+    "deep-equal": "^1.0.1",
+    "drag-drop": "^2.11.0",
+    "electron-localshortcut": "^0.6.0",
+    "network-address": "^1.1.0",
+    "titlebar": "^1.4.0",
+    
+    "vue":"^1.0.24",
+    "vuex":"^0.6.3",
+    "vue-rx":"^1.0.1",
+    "vue-router":"^0.7.13",
+    "vue-resource":"^0.7.0",
+    "vue-validator":"^2.1.1"
   },
-  
   "devDependencies": {
-    "electron-prebuilt": "^0.37.7"
+    "devtron": "^1.1.0",
+    "electron-prebuilt": "^1.1.0"
   }
 }
