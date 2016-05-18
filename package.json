@@ -1,10 +1,16 @@
 {
   "name": "desktop-fairy",
-"version": "1.0.0",
-"description": "",
-"license": "MIT",
-"main": "index.js",
-"repository": {
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "electron": "./node_modules/.bin/electron"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/shinetimes/desktop-fairy.git"
   },
@@ -16,18 +22,15 @@
     "tutorial"
   ],
   "homepage": "https://github.com/shinetimes/desktop-fairy#readme",
-  
-  "scripts": {
-    "start": "electron ."
-  },
 
   "dependencies": {
+    "css-modules-require-hook": "^4.0.0",
     "deep-equal": "^1.0.1",
     "drag-drop": "^2.11.0",
+    "electron-debug": "^1.0.0",
     "electron-json-storage": "^2.0.0",
     "electron-localshortcut": "^0.6.0",
-    "network-address": "^1.1.0",
-
+    "font-awesome": "^4.6.1",
     "vue": "^1.0.24",
     "vue-resource": "^0.7.0",
     "vue-router": "^0.7.13",
@@ -35,6 +38,7 @@
     "vue-validator": "^2.1.1",
     "vuex": "^0.6.3"
   },
+  
   "devDependencies": {
     "devtron": "^1.1.0",
     "electron-prebuilt": "^1.1.0"
