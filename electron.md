@@ -6,15 +6,26 @@
 [开发文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
 
 
-```
 // 全局安装
+```
 npm install electron-prebuilt -g
 npm install electron-packager -g
+```
 
 // 本地安装
+```
 npm install electron-prebuilt --dev-save
 npm install electron-packager --dev-save
 ```
+
+// 把网址封装为桌面程序
+```
+npm install nativefier -g
+```
+
+// 开发起步
+http://photonkit.com/ 提供一套完整的 UI 组件，并提供基本的起步点
+
 
 ##主进程
 在 Electron 里，运行 package.json 里 main 脚本的进程被称为主进程。在主进程运行的脚本可以以创建 web 页面的形式展示 GUI
