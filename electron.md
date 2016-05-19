@@ -12,10 +12,16 @@ npm install electron-prebuilt -g
 npm install electron-packager -g
 ```
 
+// 初始化项目
+```
+npm install vue-cli -g
+vue init webpack desktop-fairy
+```
+
 // 本地安装
 ```
-npm install electron-prebuilt --dev-save
-npm install electron-packager --dev-save
+npm install electron-prebuilt --save-dev
+npm install electron-packager --save-dev
 ```
 
 // 把网址封装为桌面程序
@@ -25,6 +31,8 @@ npm install nativefier -g
 
 // 开发起步
 http://photonkit.com/ 提供一套完整的 UI 组件，并提供基本的起步点
+
+
 
 
 ##主进程
