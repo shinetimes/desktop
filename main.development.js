@@ -1,4 +1,4 @@
-import { app, BrowserWindow, Menu, shell } from 'electron';
+import {app, BrowserWindow, Menu, shell} from "electron";
 
 let menu;
 let template;
@@ -11,7 +11,9 @@ if (process.env.NODE_ENV === 'development') {
 
 
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit();
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
 });
 
 
@@ -101,7 +103,7 @@ app.on('ready', () => {
       }]
     }, {
       label: 'View',
-      submenu: (process.env.NODE_ENV === 'development') ? [{
+      submenu: process.env.NODE_ENV === 'development' ? [{
         label: 'Reload',
         accelerator: 'Command+R',
         click() {
@@ -184,7 +186,7 @@ app.on('ready', () => {
       }]
     }, {
       label: '&View',
-      submenu: (process.env.NODE_ENV === 'development') ? [{
+      submenu: process.env.NODE_ENV === 'development' ? [{
         label: '&Reload',
         accelerator: 'Ctrl+R',
         click() {

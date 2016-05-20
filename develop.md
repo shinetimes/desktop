@@ -7,6 +7,7 @@ mkdir electron-works
 cd electron-works
 
 npm init
+eslint --init
 
 mkdir app
 mkdir fonts
