@@ -10,9 +10,7 @@ const {BrowserWindow} = electron;
 var mainWindow = null;
 
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-app.on('ready', function() {
+function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 600,
@@ -37,6 +35,13 @@ app.on('ready', function() {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+}
+
+
+// This method will be called when Electron has finished
+// initialization and is ready to create browser windows.
+app.on('ready', function() {
+  createWindow()
 },
 
 // Quit when all windows are closed.
